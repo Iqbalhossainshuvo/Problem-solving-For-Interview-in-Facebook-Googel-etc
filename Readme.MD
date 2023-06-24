@@ -16,16 +16,16 @@
 /** javaScript Problem1
 
 1)The code defines a function named "twoSum" within the context of a Solution object.
-2)The "twoSum" function takes in two parameters: an array of numbers called "nums" and a target number called "target."
-3)It initializes an array called "ans" with two elements, both initially set to 0. This array will store the indices of the two numbers that add up to the target.
-4)It creates an empty hashmap called "map" to store the numbers and their corresponding indices.
-5)The code enters a loop that iterates through each number in the "nums" array.
-6)Inside the loop, it calculates the difference between the target and the current number and assigns it to the variable "diff."
-7)It checks if the "diff" exists as a key in the "map" hashmap using the "hasOwnProperty" method.
-8)If the "diff" does not exist in the hashmap, it means that the complement for the current number hasn't been found yet. In this case, it adds the current number and its index to the "map" hashmap using the current number as the key and the current index as the value
-9)If the "diff" exists in the hashmap, it means that the complement for the current number has been found previously. In this case, it retrieves the index of the complement from the "map" hashmap and assigns it to "ans[1]". The current index is assigned to "ans[0]".
-10)Once the indices are assigned, it breaks out of the loop using the "break" statement since the result has been found.
-11)Finally, it returns the "ans" array, which contains the indices of the two numbers that add up to the target.
+2) The "twoSum" function takes in two parameters: an array of numbers called "nums" and a target number called "target."
+3) It initializes an array called "ans" with two elements, both initially set to 0. This array will store the indices of the two numbers that add up to the target.
+4) It creates an empty hashmap called "map" to store the numbers and their corresponding indices.
+5) The code enters a loop that iterates through each number in the "nums" array.
+6) Inside the loop, it calculates the difference between the target and the current number and assigns it to the variable "diff."
+7) It checks if the "diff" exists as a key in the "map" hashmap using the "hasOwnProperty" method.
+8) If the "diff" does not exist in the hashmap, it means that the complement for the current number hasn't been found yet. In this case, it adds the current number and its index to the "map" hashmap using the current number as the key and the current index as the value
+9) If the "diff" exists in the hashmap, it means that the complement for the current number has been found previously. In this case, it retrieves the index of the complement from the "map" hashmap and assigns it to "ans[1]". The current index is assigned to "ans[0]".
+10) Once the indices are assigned, it breaks out of the loop using the "break" statement since the result has been found.
+11) Finally, it returns the "ans" array, which contains the indices of the two numbers that add up to the target.
 
 /**
  * use towSum
